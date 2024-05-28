@@ -27,5 +27,8 @@ add rt se/raw/event/scene/ga162x.pac
 add rt se/raw/event/scene/ga262x.pac
 add rt se/raw/event/scene/ga362x.pac
 add rt se/raw/event/scene/ga462x.pac
+add rt rs/raw/event/scene/ev4080.pac
+add rt rs/raw/event/scene/ev4105.pac
+add rt rs/raw/script/script_w1r05.pac
 add modselect.json
 add mod.ini
