@@ -1,0 +1,31 @@
+add rt de/raw/event/scene/bo6xxx.pac
+add rt de/raw/event/scene/ev1010.pac
+add rt de/raw/event/scene/ev1150.pac
+add rt de/raw/event/scene/ev1510.pac
+add rt de/raw/event/scene/ev1520.pac
+add rt de/raw/event/scene/ev1600.pac
+add rt de/raw/event/scene/ev1610.pac
+add rt de/raw/event/scene/ev1620.pac
+add rt de/raw/event/scene/ev1630.pac
+add rt de/raw/event/scene/ev1640.pac
+add rt de/raw/event/scene/ev1650.pac
+add rt de/raw/event/scene/ev1660.pac
+add rt de/raw/event/scene/ev1670.pac
+add rt de/raw/event/scene/ev1770.pac
+add rt de/raw/event/scene/ev2010.pac
+add rt de/raw/event/scene/ev3010.pac
+add rt de/raw/event/scene/ev3170.pac
+add rt de/raw/event/scene/ev4040.pac
+add rt de/raw/event/scene/ev4060.pac
+add rt de/raw/event/scene/ev4105.pac
+add rt de/raw/event/scene/ev4110.pac
+add rt de/raw/event/scene/ev5040.pac
+add rt de/raw/event/scene/ev6030.pac
+add rt de/raw/event/scene/zev_sp_riflebeast.pac
+add rt se/code.hmm
+add rt se/raw/event/scene/ga162x.pac
+add rt se/raw/event/scene/ga262x.pac
+add rt se/raw/event/scene/ga362x.pac
+add rt se/raw/event/scene/ga462x.pac
+add modselect.json
+add mod.ini
