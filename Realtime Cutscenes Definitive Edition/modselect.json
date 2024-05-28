@@ -2,51 +2,34 @@
   "Groups": [
     {
       "Name": "Main",
-      "DisplayName": "Realtime Cutscenes - Definitive Edition",
+      "DisplayName": "Realtime Cutscenes - Optional Scenes",
       "Elements": [
         {
-          "Name": "IncludeDir0",
-          "DisplayName": "Realtime Cutscenes - Definitive Edition",
-          "Description": ["Determines whether to use the main mod or not."],
-          "Type": "rt de",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": "rt de"
-        }
-      ]
-    },
-    {
-      "Name": "Main",
-      "DisplayName": "Realtime Cutscenes - Starfall Events",
-      "Elements": [
-        {
-          "Name": "IncludeDir4",
+          "Name": "IncludeDir1",
           "DisplayName": "Starfall Events",
           "Description": ["Determines whether to play the Starfall events in Realtime or leave them pre-rendered."],
           "Type": "rt se",
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": "rt se"
+        },
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "Rhea Island Scenes",
+          "Description": [
+            "Determines whether some Rhea Island scenes are Realtime or pre-rendered."],
+          "Type": "rt rs",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "rt rs"
         }
       ]
     }
   ],
   "Enums": {
-    "rt de": [
-      {
-        "DisplayName": "Off",
-        "Value": "empty",
-        "Description": ["Disables the main mod."]
-      },
-      {
-        "DisplayName": "On",
-        "Value": "rt de",
-        "Description": ["Enables the main mod."]
-      }
-    ],
     "rt se": [
       {
-        "DisplayName": "Realtime Cutscenes - Starfall Islands",
+        "DisplayName": "Activated",
         "Value": "rt se",
         "Description": ["Uses the Realtime Starfall events."]
       },
@@ -54,6 +37,18 @@
         "DisplayName": "Disabled",
         "Value": "empty",
         "Description": ["Uses Pre-Rendered Starfall Events."]
+      }
+    ],
+    "rt rs": [
+      {
+        "DisplayName": "Activated",
+        "Value": "rt rs",
+        "Description": ["Use the Rhea Island a RealTime scenes!"]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "empty",
+        "Description": ["Uses some pre-rendered scenes on Rhea Island. "]
       }
     ]
   },
