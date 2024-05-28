@@ -1,0 +1,27 @@
+Code "Hide Layers in Events 2" by "DoomGuyRi08"
+//
+    #include "Reflection" noemit
+    #include "BlackboardStatus" noemit  
+  
+    #lib "Lua"
+//
+{
+    Lua.CreateLineHook
+    {
+      """
+        LoadDiEvent(""ev4105"");
+        SetLayerEnabledInEvent(""w1r05_plan_common"", false);
+        LoadDiEvent(""ev4110"");
+        PlayDiEvent(""ev4105"");
+        PlayDiEvent(""ev4110"");
+        SetLayerEnabledInEvent(""w1r05_plan_common"", true);
+     """,
+
+        "w1r05_sequence00.lua", "LoadDiEvent(\"ev4105\");\nLoadDiEvent(\"ev4110\");\nPlayDiEvent(\"ev4105\");\nPlayDiEvent(\"ev4110\");",
+        HookBehavior.Replace
+    };
+}
+
+//
+  string ev4105 = "ev4105";
+  string ev4110 = "ev4110";
