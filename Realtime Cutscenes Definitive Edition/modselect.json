@@ -22,6 +22,16 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": "rt rs"
+        },
+        {
+          "Name": "IncludeDir3",
+          "DisplayName": "Rework Supreme Support",
+          "Description": [
+            "The Holoska mod 'Rework Supreme' is incompatible with a RealTime Custscene scene, the idea of this configuration file is to make that mod compatible!"],
+          "Type": "rt Rework Support",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "rt Rework Support" 
         }
       ]
     }
@@ -48,7 +58,19 @@
       {
         "DisplayName": "Disabled",
         "Value": "empty",
-        "Description": ["Uses some pre-rendered scenes on Rhea Island. "]
+        "Description": ["Uses some pre-rendered scenes on Rhea Island."]
+      }
+    ],
+    "rt Rework Support": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "empty",
+        "Description": ["Use the scene that is incompatible with the 'Rework Supreme' mod."]
+      },
+      {
+        "DisplayName": "Activated", 
+        "Value": "rt Rework Support",
+        "Description": ["Disables the scene, and makes the 'Rework Supreme' mod compatible."]
       }
     ]
   },
