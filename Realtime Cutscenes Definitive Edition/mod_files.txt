@@ -30,5 +30,6 @@ add rt se/raw/event/scene/ga462x.pac
 add rt rs/raw/event/scene/ev4080.pac
 add rt rs/raw/event/scene/ev4105.pac
 add rt rs/raw/script/script_w1r05.pac
+add rt Rework Support/raw/event/scene/ev5030.pac
 add modselect.json
 add mod.ini
